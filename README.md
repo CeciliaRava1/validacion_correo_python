@@ -1,10 +1,40 @@
-# SySL2023_validacion_correo
-La validación de direcciones de correo electrónico es importante para asegurarse de que los datos ingresados sean correctos y útiles en aplicaciones web y sistemas de comunicación electrónica. 
+# Email Address Validation in Python
 
-Especificación del problema
-Arma un código, muy simple, que utilice la expresión regular para validar las direcciones de correo electrónico en la lista y mostrar las direcciones válidas.
-• hola@google.com
-• Andresgomez.86@hotmail.com.ar
-• victora_g@gmail.com
-• soyjuan@gmail.com
-• ramiro123@gmail.com.ar
+This project demonstrates how to validate email addresses using Python. The validation is done by checking the structure of the email address, ensuring that it meets common criteria for valid email addresses.
+
+## Description
+
+The script validates email addresses by examining their components (username, domain, and domain extension) to ensure they conform to typical email address formats. This is achieved using custom logic without relying on regular expressions.
+
+## Features
+
+- Validates the username part of the email address.
+- Validates the domain part of the email address.
+- Validates the domain extension part of the email address.
+- Ensures the overall length and format of the email address are correct.
+
+## Usage
+
+To use this script, follow these steps:
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/CeciliaRava1/email-validation-python.git
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd email-validation-python
+```
+
+3. Run the script:
+
+```bash
+python validate_emails.py
+```
+
+## Contributing
+
+If you want to contribute to this project, please fork the repository and create a pull request.
